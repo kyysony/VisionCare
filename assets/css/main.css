@@ -1592,12 +1592,12 @@
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #359cd6;
+		color: #ffffff;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #359cd6 !important;
+			color: #ffffff !important;
 			border-bottom-color: transparent;
 		}
 
@@ -2506,7 +2506,8 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+            width: 100%;
+            text-align: center;
 		}
 
 			.image.fit img {
@@ -2979,7 +2980,7 @@
 			transition: transform 1s ease, opacity 1s ease;
 			background: rgba(23, 24, 32, 0.95);
 			border-style: solid;
-			opacity: 1;
+			opacity: .8;
 			position: absolute;
 		}
 
@@ -3546,7 +3547,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 		/* Spotlight */
